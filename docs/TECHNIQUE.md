@@ -98,7 +98,7 @@ Supprimer ce dossier efface tout ce qu'Argos sait.
 - **Signature** : minisign (Ed25519). La clé publique est compilée dans l'application ; un paquet non signé ou modifié est refusé.
 - **Paquets** : Windows, l'installeur NSIS lui-même (mode passif) ; macOS, `Argos.app` compressé, remplacé en place puis relancé.
 - **Notes** : `latest.json` contient le journal des 15 dernières versions ; l'application affiche celles qui sont plus récentes que la sienne, même si tu as sauté des versions.
-- **Chaîne de publication** : les installeurs sont construits par GitHub Actions (Windows x64, macOS universel), puis **signés hors CI** sur la machine du développeur avant publication ici.
+- **Chaîne de publication** : l'installeur Windows x64 est construit par GitHub Actions, l'application macOS universelle sur le Mac du développeur ; tout est **signé hors CI** avant publication ici.
 
 ## Limites connues
 

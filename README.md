@@ -174,7 +174,7 @@ Parce qu'Argos n'est pas encore signé par un certificat Microsoft ou Apple. Ce 
 <details>
 <summary><b>Pourquoi ce dépôt ne contient-il pas le code source ?</b></summary>
 
-Le code source est privé pour le moment. Ce dépôt sert à publier les versions et à les distribuer aux applications installées. Les versions sont construites automatiquement par GitHub Actions, puis signées.
+Le code source est privé pour le moment. Ce dépôt sert à publier les versions et à les distribuer aux applications installées. L'installeur Windows est construit par GitHub Actions, l'application macOS sur le Mac du développeur ; les paquets sont ensuite signés hors CI.
 </details>
 
 <details>
